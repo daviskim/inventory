@@ -1,0 +1,26 @@
+<resources>
+    <!-- Margin around the floating action button in CatalogActivity -->
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Common margin value used throughout the app -->
+    <dimen name="activity_margin">4dp</dimen>
+
+    <!-- Common margin value used on input fields in product detail-->
+    <dimen name="editor_layout_width">0dp</dimen>
+
+    <!-- Common margin value used on input fields in product detail-->
+    <dimen name="editor_image_padding">2dp</dimen>
+
+    <!-- Common margin value used on buttons in product detail-->
+    <dimen name="editor_button_margin">0dp</dimen>
+
+    <!-- Common margin value used on catalog activity list item view -->
+    <dimen name="list_item_layout_width_name">100dp</dimen>
+
+    <!-- Common margin value used on catalog activity list item view -->
+    <dimen name="list_item_layout_width_price">80dp</dimen>
+
+    <!-- Common margin value used on catalog activity list item view -->
+    <dimen name="list_item_layout_width_image">100dp</dimen>
+</resources>
+

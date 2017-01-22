@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Name for the application -->
+    <string name="app_name">Inventory</string>
+
+    <!-- Title for the activity to add a new product -->
+    <string name="editor_activity_title_new_product">Add a Product</string>
+
+    <!-- Title for the activity to edit an existing product -->
+    <string name="editor_activity_title_edit_product">Edit Product</string>
+
+    <!-- Label for editor menu option to save product and leave editor -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for Product Name in the editor -->
+    <string name="category_name">Product Name</string>
+
+    <!-- Label for Product Price in the editor -->
+    <string name="category_price">Product Price</string>
+
+    <!-- Label for quantity information in the editor  -->
+    <string name="category_quantity">Quantity</string>
+
+    <!-- Label for quantity sold in category activity  -->
+    <string name="listview_sold">"Qty Sold: "</string>
+
+    <!-- Label for current quantity in category activity  -->
+    <string name="listview_current_qty">"Current Qty: "</string>
+
+    <!-- Label for quantity information in the editor  -->
+    <string name="category_sold">Quantity Sold</string>
+
+    <!-- Text hint for name field in the editor -->
+    <string name="hint_product_name">Product Name</string>
+
+    <!-- Text hint for price field in the editor -->
+    <string name="hint_price">Price</string>
+
+    <!-- Text hint for quantity field in the editor -->
+    <string name="hint_quantity">Quantity</string>
+
+    <!-- Text hint for quantity field in the editor -->
+    <string name="hint_sold">Quantity Sold</string>
+
+    <!-- Toast message in editor when new product has been successfully inserted -->
+    <string name="editor_insert_product_successful">Product saved</string>
+
+    <!-- Toast message in editor when new product has failed to be inserted -->
+    <string name="editor_insert_product_failed">Error with saving product</string>
+
+    <!-- Toast message in editor when current product was successfully updated -->
+    <string name="editor_update_product_successful">Product updated</string>
+
+    <!-- Toast message in editor when current product has failed to be updated -->
+    <string name="editor_update_product_failed">Error with updating product</string>
+
+    <!-- Toast message in editor when trying to save blank product information -->
+    <string name="editor_save_no_information">Must enter a product name with price!</string>
+
+    <!-- Toast message in editor when trying to delete a product with blank fields -->
+    <string name="editor_nothing_to_delete">There is nothing to delete!</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes -->
+    <string name="discard">Discard</string>
+
+    <!-- AlertDialog text for deleting product -->
+    <string name="confirm_deletion">Confirm Deletion</string>
+
+    <!-- AlertDialog text for deleting product -->
+    <string name="yes">Yes</string>
+
+    <!-- AlertDialog text for deleting product -->
+    <string name="no">No</string>
+
+    <!-- Dialog button text for the option to keep editing the current product -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current product was successfully deleted -->
+    <string name="editor_delete_product_successful">Product deleted</string>
+
+    <!-- Toast message in editor when current product has failed to be deleted -->
+    <string name="editor_delete_product_failed">Error with deleting product</string>
+
+    <!-- Toast message in editor when current product has failed to be deleted -->
+    <string name="editor_no_inventory">No inventory available</string>
+
+    <!-- Toast message in editor when a product image was not selected -->
+    <string name="editor_image_not_selected">Image not selected</string>
+
+    <!-- Toast message in editor when selecting a product image generates an error -->
+    <string name="editor_image_error">Image Error</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current product -->
+    <string name="delete">Delete Product Entry</string>
+
+    <!-- Button text for receive qty -->
+    <string name="button_receive">Receive qty 1</string>
+
+    <!-- Button text for remove qty -->
+    <string name="button_remove">Remove qty 1</string>
+
+    <!-- Button text for adding product image qty -->
+    <string name="button_add_image">Set Image</string>
+
+    <!-- Button text to sell 1 of the current product -->
+    <string name="sold">Sold Qty 1</string>
+
+    <!-- Button text to place an order for the current product -->
+    <string name="place_order">Order Product</string>
+
+    <!-- Title text for the empty view, which describes the empty shelf image -->
+    <string name="empty_view_title_text">Empty Product Database</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a product -->
+    <string name="empty_view_subtitle_text">Use the floating button on the bottom right to add
+        a product.</string>
+</resources>
